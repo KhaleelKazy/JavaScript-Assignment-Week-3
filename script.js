@@ -1,10 +1,10 @@
-function calculatePrice(price, quantity) {
+const calculatePrice = (price, quantity) => {
     return { price: price, quantity: quantity };
-}
+};
 
-function getTax(amount, taxRate) {
+const getTax = (amount, taxRate) => {
     return { amount: amount, taxRate: taxRate };
-}
+};
 
 const priceInfo = calculatePrice(15, 4);
 const taxInfo = getTax(15, 0.07);
@@ -21,4 +21,3 @@ function calculateStoreTax(amount) {
 }
 
 console.log(calculateStoreTax(100));
-console.log(defaultTaxRate);
