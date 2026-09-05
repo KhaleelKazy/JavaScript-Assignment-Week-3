@@ -14,3 +14,11 @@ const taxAmount = taxInfo.amount * taxInfo.taxRate;
 
 console.log("Subtotal:", subtotal);
 console.log("Tax:", taxAmount);
+
+function calculateStoreTax(amount) {
+    const defaultTaxRate = 0.07;
+    return amount * defaultTaxRate;
+}
+
+console.log(calculateStoreTax(100));
+console.log(defaultTaxRate);
