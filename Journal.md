@@ -6,3 +6,4 @@ When I tried to log defaultTaxRate I get a ReferenceError of not defined it happ
 
 Journal Prompt 3
 The arrow replaces the fuction keyword. Arrow functions also skip curly braces. The code becomes easier to read.
+
